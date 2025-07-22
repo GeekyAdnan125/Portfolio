@@ -8,7 +8,7 @@ import InputField from "../common/components/InputField/InputField";
 import TextAreaField from "../common/components/TextAreaField/TextAreaField";
 import SubmitButton from "../common/components/SubmitButton/SubmitButton";
 import Loader from "../common/components/Loader/Loader";
-import cv from "../assets/files/cv.pdf";
+const resumeLink = "/assets/files/Adnan_resume.pdf";
 // import icons
 import { FaReact } from "react-icons/fa";
 import {
@@ -280,7 +280,7 @@ function App() {
           </p>
 
           <a
-            href={cv}
+            href={resumeLink}
             download="cv-PDF-document"
             target="_blank"
             rel="noopener noreferrer"
