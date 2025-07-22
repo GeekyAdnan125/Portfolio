@@ -281,7 +281,7 @@ function App() {
 
           <a
             href={resumeLink}
-            download="cv-PDF-document"
+            download="resumeLink-PDF-document"
             target="_blank"
             rel="noopener noreferrer"
           >
