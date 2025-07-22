@@ -8,7 +8,6 @@ import InputField from "../common/components/InputField/InputField";
 import TextAreaField from "../common/components/TextAreaField/TextAreaField";
 import SubmitButton from "../common/components/SubmitButton/SubmitButton";
 import Loader from "../common/components/Loader/Loader";
-const AdnanResume = "/assets/files/Adnan_resume.pdf";
 // import icons
 import { FaReact } from "react-icons/fa";
 import {
@@ -279,14 +278,15 @@ function App() {
             real-world problems.
           </p>
 
-          <a
-            href={AdnanResume}
-            download="AdnanResume-PDF-document"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <DownloadButton>Download Resume</DownloadButton>
-          </a>
+         <a
+  href="/AdnanResume.pdf"
+  download="AdnanResume-PDF-document"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <DownloadButton>Download Resume</DownloadButton>
+</a>
+
         </div>
         <div className={style["scroll-icon"]}>
           <div
