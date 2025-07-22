@@ -30,6 +30,9 @@ import { SiNumpy, SiPandas } from "react-icons/si";
 import { GoGraph } from "react-icons/go";
 import { RiSendPlaneFill } from "react-icons/ri";
 import { SiPostman } from "react-icons/si";
+import { FaNode } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
 
 //import images
 
@@ -59,7 +62,7 @@ const skills = [
   },
 
   {
-    name: "React",
+    name: "React JS",
     icon: <FaReact size="25px" color="white" />,
     cssName: "react",
   },
@@ -69,11 +72,25 @@ const skills = [
     cssName: "redux",
   },
   {
+    name: "Node JS",
+    icon: <FaNode size="25px" color="white" />,
+    cssName: "redux",
+  },
+  {
+    name: "Express JS",
+    icon: <SiExpress size="25px" color="white" />,
+    cssName: "redux",
+  },
+  {
+    name: "Mongodb",
+    icon: <SiMongodb size="25px" color="white" />,
+    cssName: "redux",
+  },
+  {
     name: "Git",
     icon: <BsGit size="25px" color="white" />,
     cssName: "git",
   },
-
   {
     name: "POSTMAN",
     icon: <SiPostman size="25px" color="white" />,
