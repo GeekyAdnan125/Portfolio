@@ -263,7 +263,7 @@ function App() {
       {/* Home */}
       <div id="Home" className={style.home}>
         <div className={style["home-content"]}>
-          <h1>HEY, I'M Adnan Alam</h1>
+          <h1>HEY, I'M Adnan  </h1>
           <p>
             A passionate{" "}
             <span className="font-semibold text-blue-600">
