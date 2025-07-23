@@ -134,7 +134,9 @@ const projects = [
     link: "https://voyager-01.vercel.app",
     github: "https://github.com/GeekyAdnan125/Voyager_01.git",
     description:
-      "Voyager is an advanced AI-powered travel assistant web application built with the MERN stack. It helps users explore destinations, plan trips, and access real-time assistance. Key features include a 24/7 AI chatbot for travel support, emergency medical info with local doctor listings, real-time weather updates, hidden destination gems, multilingual support, and a community forum.",
+      "Voyager is a powerful AI-driven travel assistant web app built with the MERN stack, designed to enhance the travel experience with smart planning and real-time support. It features a 24/7 AI chatbot, real-time weather updates, multilingual support, and a community forum. The platform offers dashboards for souvenir vendors and hotel owners to manage products, track bookings, and receive instant email notifications when users make purchases. Voyager includes emergency support tools like local hospital and police station listings, and an emergency contact system that allows users to send their live location via WhatsApp with a single click. A fun discount game offers users special deals, while secure payments are handled through Razorpay integration. Hidden gem recommendations help users discover offbeat destinations, making Voyager a complete and intelligent travel companion"
+
+,
     image: Voyager,
     tags: [
       "MERN Stack",
